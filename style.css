@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+  }
+  
+   #grid {
+    align-content: space-between;
+    background-color: rgba(0,0,0,.3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 450px;
+    width: 450px;
+  } 
+  
+  #grid div {
+    background-color: wheat;
+    height: 140;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #grid div img {
+    width: 100%;
+  }
